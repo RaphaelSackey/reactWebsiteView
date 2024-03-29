@@ -1,0 +1,151 @@
+.sidebar-wrapper{
+    position: relative;
+    display: none;
+}
+
+.sidebar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    height: 100vh;
+    background:#ded9d9;
+    position: fixed;
+    padding-right: 50%;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(100%);
+
+}
+
+
+.sidebar-active{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+    padding-right: 50%;
+    width: 100%;
+    height: 100vh;
+    background: #ded9d9;
+    position: fixed;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(50%);
+
+}
+.sidebar-wrapper .active{
+    color:var(--color-nav-hover) ;
+    background: gray;
+    max-width: fit-content;
+    padding: 0.1rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.x{
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 2px;
+    right: 51%;
+}
+
+@media (max-width:768px){
+    .sidebar-wrapper{
+        display: block;
+    }
+}
+
+@media (max-width:425px){
+
+    .sidebar{
+        padding-right: 0;
+    
+    }
+    
+  
+    .sidebar-active{
+       
+        transform: translateX(0);
+        padding-right: 0;
+    
+    }
+    .x{
+        right: .5rem;
+    }
+}
+
+
+
+@media (max-width:375px){
+
+    .sidebar{
+        padding-right: 0;
+    
+    }
+    
+  
+    .sidebar-active{
+       
+        transform: translateX(0);
+        padding-right: 0;
+    
+    }
+    .x{
+        right: .5rem;
+    }
+}
+
+
+/* @media (max-width:2560px){
+    .container{
+        
+    }
+}
+
+@media (max-width:1440px){
+    .container{
+       
+    }
+}
+
+@media (max-width:1200px){
+    .container{
+       
+    }
+}
+
+@media (max-width:922px){
+    .container{
+     
+    }
+}
+
+@media (max-width:768px){
+    .container{
+  
+    }
+}
+
+@media (max-width:576px){
+    .container{
+ 
+    }
+}
+
+@media (max-width:576px){
+    .container{
+   
+    }
+}
+ */
+
+
+
+

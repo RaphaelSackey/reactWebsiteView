@@ -1,0 +1,17 @@
+
+.social-holder{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-holder img{
+    height: 3rem;
+    width: 3rem
+}
+@media (max-width:576px){
+    .social-holder img{
+        height: 2.5rem;
+        width: 2.5rem
+    }
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+
+
+/* @media (max-width:2560px){
+    .container{
+        
+    }
+}
+
+@media (max-width:1440px){
+    .container{
+       
+    }
+}
+
+@media (max-width:1200px){
+    .container{
+       
+    }
+}
+
+@media (max-width:922px){
+    .container{
+     
+    }
+}
+
+@media (max-width:768px){
+    .container{
+  
+    }
+}
+
+@media (max-width:576px){
+    .container{
+ 
+    }
+}
+
+@media (max-width:576px){
+    .container{
+   
+    }
+}
+ */
+
+
+
+:root{
+    --color-page-color: rgb(245, 245, 245);
+    --color-nav-hover: rgb(167, 143, 143) ;
+    --color-button-hover: rgb(118, 118, 118);
+
+}
+
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+
+.bold-h2 {
+    /* font-size: 4.5rem; */
+    font-family: Playfair;
+}
+
+.writing-h6{
+    /* height: 10rem;
+    width: 50rem; */
+    padding: 1rem 0;
+    font-family: nunito;
+    color: rgba(130, 130, 130, 1);
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.space{
+    margin-bottom: 2rem;
+}
+
+@media (max-width:2560px){
+    .container{
+        /* border: 2px solid yellow; */
+        max-width: 1440px;
+    }
+}
+
+@media (max-width:1440px){
+    .container{
+        max-width: 1200px ;
+    }
+}
+
+@media (max-width:1200px){
+    .container{
+        max-width: 922px ;
+    }
+    
+}
+
+@media (max-width:922px){
+    .container{
+        max-width: 768px ;
+    }
+}
+
+@media (max-width:768px){
+    .container{
+        max-width: 100vh ;
+    }
+    .stack-h2{
+        text-align: center;
+    }
+
+    .writing-h6{
+        text-align:center;
+        
+    }
+    
+}
+
+@media (max-width:576px){
+    .container{
+        max-width: 100vw ;
+    }
+    
+}
+
+@media (max-width:375px){
+    .container{
+        max-width: 100vw ;
+    }
+}
+@media (max-width:320px){
+    .container{
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+}
+
